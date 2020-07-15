@@ -1,0 +1,138 @@
+ //****************\\
+||   pomdp-solve    ||
+||     v. 5.4       ||
+ \\****************//
+      PID=2677
+- - - - - - - - - - - - - - - - - - - -
+time_limit = 0
+mcgs_prune_freq = 100
+verbose = context
+stdout = 
+inc_prune = normal
+history_length = 0
+prune_epsilon = 0.000000
+save_all = false
+o = package/pomdp-sol/pomdp_sol/proc/volume/example-2677
+fg_save = false
+enum_purge = normal_prune
+fg_type = initial
+fg_epsilon = 0.000000
+mcgs_traj_iter_count = 1
+lp_epsilon = 0.000000
+end_epsilon = 0.000000
+start_epsilon = 0.000000
+dom_check = false
+stop_delta = 0.000000
+q_purge = normal_prune
+pomdp = package/pomdp-sol/pomdp_sol/proc/volume/example.pomdp
+mcgs_num_traj = 1000
+stop_criteria = weak
+method = incprune
+memory_limit = 0
+alg_rand = 0
+terminal_values = 
+save_penultimate = false
+epsilon = 0.000000
+rand_seed = 
+discount = -1.000000
+fg_points = 10000
+fg_purge = normal_prune
+proj_purge = normal_prune
+mcgs_traj_length = 100
+history_delta = 0
+f = 
+epsilon_adjust = 0.000000
+prune_rand = 0
+vi_variation = normal
+horizon = 0
+stat_summary = false
+max_soln_size = 0.000000
+witness_points = false
+- - - - - - - - - - - - - - - - - - - -
+[Initializing POMDP ... done.]
+[Initial policy has 1 vectors.]
+++++++++++++++++++++++++++++++++++++++++
+Epoch: 1...2 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 2...3 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 3...3 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 4...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 5...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 6...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 7...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 8...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 9...4 vectors in 0.00 secs. (0.00 total) (err=inf)
+Epoch: 10...4 vectors in 0.01 secs. (0.01 total) (err=inf)
+Epoch: 11...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 12...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 13...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 14...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 15...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 16...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 17...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 18...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 19...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 20...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 21...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 22...4 vectors in 0.00 secs. (0.01 total) (err=inf)
+Epoch: 23...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 24...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 25...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 26...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 27...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 28...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 29...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 30...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 31...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 32...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 33...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 34...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 35...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 36...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 37...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 38...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 39...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 40...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 41...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 42...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 43...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 44...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 45...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 46...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 47...4 vectors in 0.00 secs. (0.02 total) (err=inf)
+Epoch: 48...4 vectors in 0.01 secs. (0.03 total) (err=inf)
+Epoch: 49...4 vectors in 0.00 secs. (0.03 total) (err=inf)
+Epoch: 50...4 vectors in 0.00 secs. (0.03 total) (err=inf)
+Epoch: 51...4 vectors in 0.00 secs. (0.03 total) (err=inf)
+Epoch: 52...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 53...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 54...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 55...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 56...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 57...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 58...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 59...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 60...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 61...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 62...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 63...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 64...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 65...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 66...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 67...4 vectors in 0.00 secs. (0.04 total) (err=inf)
+Epoch: 68...4 vectors in 0.01 secs. (0.05 total) (err=inf)
+Epoch: 69...4 vectors in 0.00 secs. (0.05 total) (err=inf)
+Epoch: 70...4 vectors in 0.00 secs. (0.05 total) (err=7.98e-10)
+Epoch: 71...4 vectors in 0.00 secs. (0.05 total) (err=5.99e-10)
+Epoch: 72...4 vectors in 0.00 secs. (0.05 total) (err=4.49e-10)
+Epoch: 73...4 vectors in 0.00 secs. (0.05 total) (err=3.37e-10)
+Epoch: 74...4 vectors in 0.00 secs. (0.05 total) (err=2.53e-10)
+Epoch: 75...4 vectors in 0.00 secs. (0.05 total) (err=1.89e-10)
+Epoch: 76...4 vectors in 0.00 secs. (0.05 total) (err=1.42e-10)
+++++++++++++++++++++++++++++++++++++++++
+Solution found.  See file:
+	package/pomdp-sol/pomdp_sol/proc/volume/example-2677.alpha
+	package/pomdp-sol/pomdp_sol/proc/volume/example-2677.pg
+++++++++++++++++++++++++++++++++++++++++
+User time = 0 hrs., 0 mins, 0.04 secs. (= 0.04 secs)
+System time = 0 hrs., 0 mins, 0.01 secs. (= 0.01 secs)
+Total execution time = 0 hrs., 0 mins, 0.05 secs. (= 0.05 secs)

@@ -1,0 +1,29 @@
+
+Loading the model ...
+  input file   : volume/decision.pomdp
+  loading time : 0.00s 
+
+SARSOP initializing ...
+  initialization time : 0.00s
+
+-------------------------------------------------------------------------------
+ Time   |#Trial |#Backup |LBound    |UBound    |Precision  |#Alphas |#Beliefs  
+-------------------------------------------------------------------------------
+ 0       0       0        -0.0833333 0          0.0833333   3        1        
+ 0       1       3        -0.0833333 -0.0833333 0           6        2        
+-------------------------------------------------------------------------------
+
+SARSOP finishing ...
+  target precision reached
+  target precision  : 0.000001
+  precision reached : 0.000000 
+
+-------------------------------------------------------------------------------
+ Time   |#Trial |#Backup |LBound    |UBound    |Precision  |#Alphas |#Beliefs  
+-------------------------------------------------------------------------------
+ 0       1       3        -0.0833333 -0.0833333 0           2        2        
+-------------------------------------------------------------------------------
+
+Writing out policy ...
+  output file : volume/decision.value
+

@@ -1,0 +1,30 @@
+
+Loading the model ...
+  input file   : package/pomdp-sol/pomdp_sol/proc/volume/example.pomdp
+  loading time : 0.00s 
+
+SARSOP initializing ...
+  initialization time : 0.00s
+
+-------------------------------------------------------------------------------
+ Time   |#Trial |#Backup |LBound    |UBound    |Precision  |#Alphas |#Beliefs  
+-------------------------------------------------------------------------------
+ 0       0       0        0.813942   1.58826    0.774318    2        1        
+ 0       5       50       1.25961    1.26707    0.00745646  8        9        
+ 0       8       81       1.26034    1.26133    0.000993283 14       9        
+-------------------------------------------------------------------------------
+
+SARSOP finishing ...
+  target precision reached
+  target precision  : 0.001000
+  precision reached : 0.000993 
+
+-------------------------------------------------------------------------------
+ Time   |#Trial |#Backup |LBound    |UBound    |Precision  |#Alphas |#Beliefs  
+-------------------------------------------------------------------------------
+ 0       8       81       1.26034    1.26133    0.000993283 5        9        
+-------------------------------------------------------------------------------
+
+Writing out policy ...
+  output file : package/pomdp-sol/pomdp_sol/proc/volume/example.value
+
